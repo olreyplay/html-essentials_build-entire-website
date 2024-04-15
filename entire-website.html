@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Julia's Website</title>
+    <meta charset="UTF-8" />
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Julia Botsford</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Welcome to my portfolio website. I'm a web developer with a passion for
+        creating amazing websites.
+      </p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li>
+          <img
+            src="https://codefinity-content-media-v2.s3.eu-west-1.amazonaws.com/courses/392f24ac-0126-4c34-a28a-f2f26d12196b/section-5/techtrack.png"
+            width="100"
+            alt="TechTrek App"
+          />
+          <h3>TechTrek App</h3>
+          <p>Explore Tech Trends</p>
+        </li>
+        <li>
+          <img
+            src="https://codefinity-content-media-v2.s3.eu-west-1.amazonaws.com/courses/392f24ac-0126-4c34-a28a-f2f26d12196b/section-5/ecocraft.png"
+            width="100"
+            alt="EcoCraft Website"
+          />
+          <h3>EcoCraft Website</h3>
+          <p>Promote Sustainable Living</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form onsubmit="return false">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="tel:+442038851801">+44 20 3885 1801</a></li>
+        <li><a href="mailto:julia188@mail.com">julia188@mail.com</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
